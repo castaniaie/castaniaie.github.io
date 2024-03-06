@@ -196,10 +196,6 @@ transform: scale(1.1);
   .contenedor2{
     
     height: 100vh;
-   /*  background-image: linear-gradient(0deg, rgba(235,235,223,0.15), rgba(235,235,223,0.15)), 
-    url("//images01.nicepage.com/c461c07a441a5d220e8feb1a/3ba329bc13625d93933078f0/rrrr-min.jpg");
-    background-position: 50% 50%; */
-
     background-image: linear-gradient(0deg, rgba(235,235,223,0.15), rgba(235,235,223,0.15)), 
     url("../images/tulipanescelestes.jpg");
     background-position: 50% 50%;
@@ -211,12 +207,14 @@ transform: scale(1.1);
 
   }
 
-  .contenedor{
-    
-    height: 100%;
-    /* background-image: linear-gradient(0deg, rgba(235,235,223,0.15), rgba(235,235,223,0.15)), 
-    url("//images01.nicepage.com/c461c07a441a5d220e8feb1a/3ba329bc13625d93933078f0/rrrr-min.jpg"); */
+  @media(max-width: 600px) {
+    .contenedor2 {
+      height: 50vh;
+    }
+  }
 
+  .contenedor{
+    height: 100%;
     background-image: linear-gradient(0deg, rgba(235,235,223,0.15), rgba(235,235,223,0.15)), 
     url("../images/tulipanescelestes.jpg");
 
@@ -227,6 +225,12 @@ transform: scale(1.1);
     padding-top: 40px;
     padding-bottom: 40px;
 
+  }
+
+  @media(max-width: 600px) {
+    .contenedor {
+      height: 50%;
+    }
   }
 
   .principal{
@@ -248,9 +252,7 @@ transform: scale(1.1);
     justify-content:center;
    
   }
-
-  
-
+ 
   .principaldiv3{
     display:flex;
     align-items:self-end;
@@ -258,7 +260,7 @@ transform: scale(1.1);
   }
 
   .textoportada{
-    color: white;
+    color: grey;
     margin-top: 25px;
     display: flex;
     justify-content: center;
@@ -266,6 +268,7 @@ transform: scale(1.1);
   }
 
   .textoportada div{
+    color: grey;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
