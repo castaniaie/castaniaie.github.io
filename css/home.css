@@ -37,6 +37,8 @@ body {
       margin-top: auto;
       margin-bottom: auto;
       background-color: #f6f4f4;
+   
+      width: 350px;
   }
 
   .menu a{
@@ -80,6 +82,8 @@ body {
     position: sticky;
     top: 0;
     margin: 0;
+    width: 450;
+    
   }
 
   @media(max-width: 600px) {
@@ -106,6 +110,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     background-color: #da190b;
+    width: 150px;
   }
 
   @media(max-width: 600px) {
@@ -311,7 +316,7 @@ transform: scale(1.1);
       font-size:16px;
       font-weight: 400;
       margin-top: 5px;
-      max-width: 100%; 
+      max-width: 150%; 
       position: relative;
       text-decoration: none;
       text-transform: uppercase;
