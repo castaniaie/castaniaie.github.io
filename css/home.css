@@ -138,7 +138,7 @@ body {
 
   @media(max-width: 600px) {
     img.circular1 {
-      border: 10px solid transparent;
+      border: 5px solid transparent;
     }
   }
 
@@ -152,7 +152,7 @@ body {
 
   @media(max-width: 600px) {
     img.circular2 {
-      border: 10px solid transparent;
+      border: 5px solid transparent;
     }
   }
 
@@ -188,7 +188,7 @@ transform: scale(1.1);
 
   @media(max-width: 600px) {
     img.circular3 {
-      border: 10px solid transparent;
+      border: 5px solid transparent;
     }
   }
 
