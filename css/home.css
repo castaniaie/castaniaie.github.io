@@ -209,7 +209,7 @@ transform: scale(1.1);
 
   @media(max-width: 600px) {
     .contenedor2 {
-      height: 50vh;
+      height: 100vh;
     }
   }
 
@@ -229,7 +229,7 @@ transform: scale(1.1);
 
   @media(max-width: 600px) {
     .contenedor {
-      height: 50%;
+      height: 100%;
     }
   }
 
@@ -260,7 +260,7 @@ transform: scale(1.1);
   }
 
   .textoportada{
-    color: grey;
+    color: black;
     margin-top: 25px;
     display: flex;
     justify-content: center;
@@ -268,7 +268,7 @@ transform: scale(1.1);
   }
 
   .textoportada div{
-    color: grey;
+    color: black;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -276,7 +276,7 @@ transform: scale(1.1);
   }
 
   .textoportada div span{
-     color:grey;
+     color:black;
     font-size: 4cqmin;
   }
  
