@@ -272,22 +272,7 @@ transform: scale(1.1);
     text-align: center;
   }
 
-  @media(max-width: 600px) {
-    .textoportada {
-      flex-direction: row;
-      height: 100%;
-      
-    }
-
-    .textoportada div{
-      flex-direction: row;
-      align-items: center;
-      height: 300px;
-      justify-content: center;
-      text-align: center;
-     
-    }
-  }
+ 
 
  
 
