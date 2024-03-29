@@ -38,7 +38,7 @@ body {
       margin-bottom: auto;
       background-color: #f6f4f4;
    
-      width: 350px;
+      width: 490px;
   }
 
   .menu a{
@@ -82,7 +82,7 @@ body {
     position: sticky;
     top: 0;
     margin: 0;
-    width: 450;
+    width: 600px;
     
   }
 
@@ -272,6 +272,25 @@ transform: scale(1.1);
     text-align: center;
   }
 
+  @media(max-width: 600px) {
+    .textoportada {
+      flex-direction: row;
+      height: 100%;
+      
+    }
+
+    .textoportada div{
+      flex-direction: row;
+      align-items: center;
+      height: 300px;
+      justify-content: center;
+      text-align: center;
+     
+    }
+  }
+
+ 
+
   .textoportada div{
     color: black;
     font-family: "Montserrat", sans-serif;
@@ -284,6 +303,8 @@ transform: scale(1.1);
      color:black;
     font-size: 4cqmin;
   }
+
+  
  
     .btn {
       border: none; 
