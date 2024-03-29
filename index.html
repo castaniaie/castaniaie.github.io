@@ -9,7 +9,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ojuju:wght@200..800&display=swap" rel="stylesheet">
+    <script
+			  src="https://code.jquery.com/jquery-3.7.1.min.js"
+			  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+			  crossorigin="anonymous"></script>
 
+    <script>
+        var images = ['image1.jpg', 'image2.jpg', 'image3.jpg', 'image4.jpg', 'image5.jpg'];
+        $('contenido').css({'background-image': 'linear-gradient(0deg, rgba(235,235,223,0.15), rgba(235,235,223,0.15)), url(images/' + images[Math.floor(Math.random() * images.length)] + ')'});
+    </script>
 
 
 </head>
@@ -48,14 +56,21 @@
                    </svg>
                    Galeria
                </a>
-           
+           </li>
+           <li>
+            <a href="pages/reflexiones.html" class="boton boton-1">
+                <svg>
+                <rect x="0" y="0"  width="100%" height="100%"/>
+                </svg>
+                Reflexiones
+            </a>
            </li>
 
              </ul>
         </div>
     </div>
     
-    <div class="contenedor2">
+    <div id="contenido" class="contenedor2">
         <div class="principal">   
             <div class="principaldiv1">
                 <img class="circular1" src="images/foto_s1.png" 
@@ -77,10 +92,11 @@
         
     <div class="textoportada">
             <div>
-            <span> Mi lugar favorito es estar junto a tí toda la vida</span>
-            <br/><br/>
-            <a class="btn" href="pages/historia.html">Nuestra Historia</a>
-        </div>
+                <span> Mi lugar favorito es estar junto a tí toda la vida</span>
+                <br/><br/>
+                <a class="btn" href="pages/historia.html">Nuestra Historia</a><br/><br/><br/>
+                <a class="btn" href="pages/reflexiones.html">Reflexiones</a>
+            </div>
   </div>
 </div>
 
